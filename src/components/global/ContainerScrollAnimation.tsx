@@ -5,7 +5,9 @@ import Image from "next/image";
 
 export const ContainerScroll = ({
   titleComponent,
+  children,
 }: {
+  children: React.ReactNode;
   titleComponent: string | React.ReactNode;
 }) => {
   const containerRef = useRef<any>(null);

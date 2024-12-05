@@ -6,8 +6,7 @@ import { InfiniteMovingCards } from "@/components/global/InfiniteMovingCards";
 import { clients, products, subscriptions } from "@/lib/constants";
 import { HeroParallax } from "@/components/global/HeroParallax";
 import { LampComponent as Lamp } from "@/components/global/Lamp";
-import { CardBody, CardContainer, CardItem } from "@/components/global/3DCard";
-import { CheckIcon } from "lucide-react";
+
 import PricingCard from "@/components/PricingCard";
 export default function Home() {
   return (
